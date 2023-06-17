@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Main - prints the alphabet in lower and uppercase
+ * main - prints the alphabet in lower and uppercase
  *
  * Return: Always 0 (Success)
  */
@@ -15,17 +15,12 @@ int main(void)
 	}
 
 	alphabet = 'A';
-	do 
-	{
+	do{
 		putchar(alphabet);
 		alphabet++;
-	}
-	while (alphabet <= 'Z');
+	}while (alphabet <= 'Z');
 	putchar('\n');
 	
 	return (0);
-
-
-
 }
 
